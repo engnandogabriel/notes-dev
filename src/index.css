@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #6713cf;
+  font-family: "Roboto", sans-serif;
+  font-family: "Spectral", serif;
+  overflow-x: hidden;
+}
+svg {
+  margin-right: 4px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.tox {
+  width: 100%;
+}
+
+.tox-tinymce {
+  height: 600px;
+}
