@@ -1,6 +1,5 @@
 import React, { useContext, useRef, useState } from "react";
 import { Editor as EditorText } from "@tinymce/tinymce-react";
-import "tinymce/plugins/codesample";
 
 import { GlobalHandelContext } from "../../../Context/Functions/HandleFunctios";
 import { NotesGlobalContex } from "../../../Context/NotesContext";
@@ -35,10 +34,10 @@ const Editor = ({ props }) => {
           height: 500,
           menubar: false,
           plugins: [
-            "anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss",
+            "anchor autolink charmap emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss",
           ],
           toolbar:
-            "blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeforma | codesample",
+            "blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeforma ",
           content_style:
             "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }",
         }}
