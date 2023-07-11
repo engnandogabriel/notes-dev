@@ -1,6 +1,7 @@
 import axios from "axios";
 
 const url = "https://note-dev-api.onrender.com";
+// const url = "http://localhost:8080";
 
 export const GET_NOTES = async (author, token) => {
   const data = await axios.get(`${url}/notes/get-notes/${author}`, {
@@ -28,20 +29,14 @@ export const POST_NOTES = async (author, token) => {
 };
 
 export const DELETE_NOTES = async (id, author, token) => {
-  const data = await axios.delete(
-    `${url}/notes/delete-note/${author}`,
-    {
-      data: {
-        id: id,
-      },
+  const data = await axios.delete(`${url}/notes/delete-note/${author}`, {
+    headers: {
+      Authorization: `Bearer ${token}`,
     },
-    {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    }
-  );
-
+    data: {
+      id: id,
+    },
+  });
   return data;
 };
 

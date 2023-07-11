@@ -39,7 +39,6 @@ export const NotesContext = ({ children }) => {
   async function deleteNote(id, author) {
     try {
       const token = window.localStorage.getItem("token");
-
       await DELETE_NOTES(id, author, token);
     } catch (error) {
     } finally {
