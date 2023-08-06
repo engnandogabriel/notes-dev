@@ -10,6 +10,9 @@
 ferramenta desenvolvida para programadores manter sua agenda organizada de uma maneira simples.
 Nele, o usuário poderá criar, editar com um editore Rich Text e excluir suas anotação a qualquer
 momento.
+
+ [Clique aqui para acessar o projeto em produção](https://notes-dev-engnandogabriel.vercel.app/)
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
