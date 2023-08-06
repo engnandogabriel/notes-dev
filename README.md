@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Notes-Dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub repo size](https://img.shields.io/github/repo-size/engnandogabriel/notes-dev?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/engnandogabriel/notes-dev?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/engnandogabriel/notes-dev?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/engnandogabriel/notes-dev?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/engnandogabriel/notes-dev?style=for-the-badge)
 
-## Available Scripts
+> Já pensou em ter acesso a sua agenda a qualquer hora e de qualquer lugar? O NotesDev é uma
+ferramenta desenvolvida para programadores manter sua agenda organizada de uma maneira simples.
+Nele, o usuário poderá criar, editar com um editore Rich Text e excluir suas anotação a qualquer
+momento.
+### Ajustes e melhorias
 
-In the project directory, you can run:
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-### `npm start`
+- [x] Sistema Responsivo
+- [ ] Implementar a função de "Esqueceu a senha"
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Pré-requisitos
 
-### `npm test`
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Você instalou a versão 18.3 do node usada nesse projeto
+* Você tem uma máquina `<Windows / Linux / Mac>`. 
 
-### `npm run build`
+## 🚀 Instalando Notes-Dev
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para instalar o projeto <Notes-Devl>, siga estas etapas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Linux e macOS:
+* abra o projeto no vscode
+* execute os comandos no terminal
+```
+npm install
+npm run dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Windows:
+* abra o projeto no vscode
+* execute os comandos no terminal
+```
+npm install
+npm run dev
+```
 
-### `npm run eject`
+* acesse o [back-end](https://github.com/engnandogabriel/notes-dev-api) para ter acesso a api da sua máquina.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧Tecnologias utilizadas
+* [React](https://vitejs.dev/guide/) - Uma biblioteca JS para desenvolvimento de sites.
+* [ContextAPI](https://reactjs.org/docs/context.html) - permite gerenciar estados globais de aplicativos
+* [React-Router-Dom](https://reactrouter.com/en/main) - bbiblioteca usada resolver problemas de rotas para as páginas de um site e tornar o desenvolvimento muito mais simples e escalável
+* [Styled-Components](https://styled-components.com/) - biblioteca para estilização de sites com CSS
+* [Axios](https://axios-http.com/ptbr/docs/intro) - biblioteca usada para consumir API (além dela, utilizou-se fetch)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# ✒️Autor
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⌨️ com ❤️ por [Nando Gabriel](https://github.com/engnandogabriel/) 😊
