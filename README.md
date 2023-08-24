@@ -48,6 +48,13 @@ npm install
 npm run dev
 ```
 
+Há registrado um usuário padrão para que você possa testar a vontade
+```
+email: teste@teste.com
+password: teste123
+```
+
+
 * acesse o [back-end](https://github.com/engnandogabriel/notes-dev-api) para ter acesso a api da sua máquina.
 
 ## 🔧Tecnologias utilizadas
