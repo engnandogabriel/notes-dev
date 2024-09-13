@@ -27,7 +27,7 @@ const Editor = ({ props }) => {
     <>
       <EditorText
         onInit={(evt, editor) => (editorRef.current = editor)}
-       apiKey='v4jrh82g5lo3u840inemwqof7g7j1b2dn2qreji9njntmnth'
+       
         initialValue={currentNote.body}
         apiKey="v4jrh82g5lo3u840inemwqof7g7j1b2dn2qreji9njntmnth"
         init={{
