@@ -29,6 +29,7 @@ const Editor = ({ props }) => {
         onInit={(evt, editor) => (editorRef.current = editor)}
         onEditorChange={handleChange}
         initialValue={currentNote.body}
+        apiKey="v4jrh82g5lo3u840inemwqof7g7j1b2dn2qreji9njntmnth"
         init={{
           entity_encoding: "raw",
           height: 500,
